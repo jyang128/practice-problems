@@ -1,4 +1,4 @@
-### Drills Level 0
+### Drills Level 0 - 01done
 - instructions
   - each drill set is self-grading.  It will show you which ones are wrong.
   - put your work in the file yourcode.js
@@ -16,7 +16,7 @@
 - <a href="https://github.com/Learning-Fuze/practice-problems/blob/master/drills05/README.md" target="_blank">jQuery practice problem: populateRecords</a>
 - <a href="https://github.com/Learning-Fuze/practice-problems/blob/master/drills06/README.md" target="_blank">jQuery practice problems: removeClassFromElement<br>hideElements<br>addAttributeToElement<br>addAttributeToElement</a>
 
-### Level 0
+### Level 0 - done
 - <a href="practice29/README.md" target="_blank">do math</a>
 - <a href="practice30/README.md" target="_blank">random number or array element</a>
 - <a href="practice31/README.md" target="_blank">math combo</a>
