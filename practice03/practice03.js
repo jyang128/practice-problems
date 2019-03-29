@@ -8,15 +8,18 @@
 // - `groupArray(myArray);`
 // - Output - `[['hello, 'goodbye', '25'], [34, 56, 12], [true, false, true]]`
 
+// Needed empty placeholder arrays within the empty array in order to use push method on each of them
+
 function sortArray(array){
-    var newArray = [];
+    var newArray = [[], [], []];
     for (var i = 0; i < array.length; i++) {
         if (typeof array[i] === 'string') {
-            newArray.push(array[0][i]);
+            newArray[0].push(array[i]);
         } else if (typeof array[i] === 'number') {
-            newArray.push(array[1][i]);
+            newArray[1].push(array[i]);
         } else {
-            newArray.push(array[2][i]);
+            newArray[2].push(array[i]);
         }
     }
+    return newArray;
 }
